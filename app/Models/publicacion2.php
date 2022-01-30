@@ -13,11 +13,11 @@ class publicacion2
     public function mostrarPublicacion()
 {
 
-    $titulo_publicacion2=["Nueva Imagen de Airoheart"];
-    $fecha_publicacion=["23 Enero del 2022"];
-    $categoria_publicacion1=["Consola2"];
-    $categoria_publicacion2=["Consola 1"];
-    $contenido_publicacion=["Publicacion del contenido"];
+    $titulo_publicacion2=[""];
+    $fecha_publicacion=[""];
+    $categoria_publicacion1=[""];
+    $categoria_publicacion2=[""];
+    $contenido_publicacion=[""];
 
 
 }

@@ -3,12 +3,12 @@
 namespace App\Models;
 
 
-class publicacion3
+class publicacion4
 {
-    public $titulo_publicacion3;
-    public $fecha_publicacion3;
-    public $categoria_publicacion3;
-    public $contenido_publicacion3;
+    public $titulo_publicacion;
+    public $fecha_publicacion;
+    public $categoria_publicacion;
+    public $contenido_publicacion;
 
     public function mostrarPublicacion()
 {

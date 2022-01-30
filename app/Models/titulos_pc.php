@@ -3,20 +3,17 @@
 namespace App\Models;
 
 
-class publicacion1
+class titulos_pc
 {
-    public $titulo_publicacion;
     public $fecha_publicacion;
-    public $categoria_publicacion;
+    public $titulo_publicacion;
     public $contenido_publicacion;
 
     public function mostrarPublicacion()
 {
 
-    $titulo_publicacion=[""];
     $fecha_publicacion=[""];
-    $categoria_publicacion1=[""];
-    $categoria_publicacion2=[""];
+    $titulo_publicacion=[""];
     $contenido_publicacion=[""];
 
 

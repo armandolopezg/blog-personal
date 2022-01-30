@@ -39,24 +39,24 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="/img/greengoblin.png" alt="..." /></a>
+                        <a href="#!"><img class="card-img-top" src="/img/airo.png" alt="..." /></a>
                         <div class="card-body">
                             <div class="small text-muted">{{$post->fecha_publicacion}}</div>
                             <h2 class="card-title">{{$post->titulo_publicacion}}</h2>
                             <p class="card-text">{{$post->contenido_publicacion}}</p>
-                            <a class="btn btn-primary" href="{{route('post4')}}">Leer más...</a>
+                            <a class="btn btn-primary" href="{{route('post')}}">Leer más...</a>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="/img/starwars.png" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="/img/monster.png" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">{{$post->fecha_publicacion2}}</div>
                                     <h2 class="card-title h4">{{$post->titulo_publicacion2}}</h2>
                                     <p class="card-text">{{$post->contenido_publicacion2}}</p>
-                                    <a class="btn btn-primary" href="{{route('post5')}}">Leer más...</a>
+                                    <a class="btn btn-primary" href="{{route('post2')}}">Leer más...</a>
                                 </div>
                             </div>
                         
@@ -64,12 +64,12 @@
 
                         <div class="col-lg-6">
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="/img/blackwind.png" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="/img/ygu.png" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">{{$post->fecha_publicacion3}}</div>
                                     <h2 class="card-title h4">{{$post->titulo_publicacion3}}</h2>
                                     <p class="card-text">{{$post->contenido_publicacion3}}</p>
-                                    <a class="btn btn-primary" href="{{route('post6')}}">Leer más...</a>
+                                    <a class="btn btn-primary" href="{{route('post3')}}">Leer más...</a>
                                 </div>
                             </div>
                     </div>
@@ -78,8 +78,8 @@
                     <nav aria-label="Pagination">
                         <hr class="my-0" />
                         <ul class="pagination justify-content-center my-4">
-                            <li class="page-item active" aria-current="page"><a class="page-link" href="{{route('inicio')}}">1</a></li>
-                            <li class="page-item"><a class="page-link" href="{{route('iniciov2')}}">2</a></li>
+                            <li class="page-item" aria-current="page"><a class="page-link" href="{{route('inicio')}}">1</a></li>
+                            <li class="page-item active"><a class="page-link" href="">2</a></li>
                         </ul>
                     </nav>
                 </div>
