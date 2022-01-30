@@ -29,7 +29,7 @@
             <div class="container">
                 <div class="text-center my-5">
                     <h1 class="fw-bolder">¡Bienvenidos!</h1>
-                    <p class="lead mb-0">Esta es la seccion de noticias de PC.</p>
+                    <p class="lead mb-0">Esta es la seccion de noticias de Nintendo Switch.</p>
                 </div>
             </div>
         </header>
